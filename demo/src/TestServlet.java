@@ -29,7 +29,7 @@ public class TestServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		ServletOutputStream outputStream = response.getOutputStream();
-		outputStream.print("Hello, world!");
+		outputStream.print("Hello, Thusday!");
 		outputStream.flush();
 	}
 
